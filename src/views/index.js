@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+import logo from '../logo.svg';
+
 class Main extends Component {
     constructor(...args) {
         super(...args);
@@ -28,6 +30,9 @@ class Main extends Component {
     render() {
         return (
             <div>
+                <div>
+                    <img src={logo} />
+                </div>
                 <div onClick={() => {
                     this.setState({
                         ...this.state,
