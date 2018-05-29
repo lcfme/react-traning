@@ -99,5 +99,17 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "proxy": [
+    {
+      "context": "/test",
+      "target": "https://www.baidu.com",
+      "changeOrigin": true,
+      "pathRewrite": {},
+      "router": {},
+      "cookieDomainRewrite": {
+        "*": ""
+      }
+    }
+  ]
 }
