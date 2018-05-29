@@ -8,10 +8,10 @@ class Main extends Component {
     render() {
         return (
             <div>
-                Hello Demo1 Sub
+                {this.props.valueManagedByRedux}
             </div>
         )
     }
 }
 
-export default connect()(Main);
+export default connect((({ valueManagedByRedux }) => ({valueManagedByRedux})))(Main);

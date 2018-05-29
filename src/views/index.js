@@ -14,6 +14,10 @@ class Main extends Component {
                 {
                     name: 'demo2',
                     href: '/demo2',
+                },
+                {
+                    name: 'demo3',
+                    href: '/demo3'
                 }
             ]
         }
