@@ -9,7 +9,7 @@ import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import reducer from './reducers';
-import autoSaveSessionAfterDispatch from './utils/redux-auto-save-session-after-dispatch';
+import autoSaveSessionAfterDispatch from 'redux-auto-save-session-after-dispatch';
 import initStore from './initStore';
 
 const store = createStore(reducer, initStore, applyMiddleware(thunk, autoSaveSessionAfterDispatch({ log: true, namespace: '__GLOBAL_STORE__' })));
