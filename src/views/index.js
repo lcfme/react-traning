@@ -33,6 +33,9 @@ class Main extends Component {
                 <div>
                     <img src={logo} />
                 </div>
+                <div>
+                    <img src="/assets/play.png" />
+                </div>
                 <div onClick={() => {
                     this.setState({
                         ...this.state,
