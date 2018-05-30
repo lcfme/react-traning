@@ -15,14 +15,14 @@ props, state, context
 2. redux react-redux redux-thunk redux-auto-save-session-after-dispatch  
 
 如何通过react-redux进行状态管理  
-如何写一个redux的middleware，源码分析 dispatch 和 applyMiddleWare， 重点是applyMiddleWare中迷人的next，和dispatch  
+如何写一个redux的middleware，源码分析 dispatch 和 applyMiddleWare， 重点是applyMiddleWare中迷人的next，和dispatch
 
 >
 3. styled-components添加样式
 >
 4. 高阶组件 一个组件传入另一个组件 返回一个新组件
 >
-5. 路由 
+5. 路由 react-router-dom react-dom-config 实现路由功能 react-async-component 实现异步加载
 >
-6. 代理 proxy
+6. 代理 package.json 中配置proxy
 
