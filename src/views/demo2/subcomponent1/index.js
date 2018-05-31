@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
 class Main extends Component {
     constructor(...args) {
@@ -32,4 +33,4 @@ class Main extends Component {
     }
 }
 
-export default connect((({ valueManagedByRedux }) => ({ valueManagedByRedux })))(Main);
+export default withRouter(connect((({ valueManagedByRedux }) => ({ valueManagedByRedux })))(Main));
