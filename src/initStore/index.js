@@ -6,7 +6,6 @@ try {
     store = {}
 }
 store = {
-    valueManagedByRedux: 'init value',
     ...store,
 }
 

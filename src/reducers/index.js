@@ -1,11 +1,5 @@
-export default (state, action) => {
-    switch (action.type) {
-        case 'changeValueManagedByRedux':
-            return {
-                ...state,
-                valueManagedByRedux: action.payload
-            }
-        default:
-            return state;
-    }
-}
+import { combineReducers } from 'redux';
+import authReducer from './auth';
+export default combineReducers({
+    auth: authReducer,
+});

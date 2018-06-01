@@ -6,6 +6,7 @@ const Demo1_Sub = asyncComponent({ resolve: () => import('./views/demo1/subpage'
 const Demo2 = asyncComponent({ resolve: () => import('./views/demo2') });
 const Demo3 = asyncComponent({ resolve: () => import('./views/demo3') });
 const Demo4 = asyncComponent({ resolve: () => import('./views/demo4') });
+const Demo5 = asyncComponent({ resolve: () => import('./views/demo5') });
 
 export default [
     {
@@ -34,5 +35,9 @@ export default [
     {
         path: '/demo4',
         component: Demo4,
+    },
+    {
+        path: '/demo5',
+        component: Demo5,
     }
 ]
