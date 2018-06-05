@@ -1,3 +1,4 @@
+import url from 'url';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
@@ -42,7 +43,7 @@ class Main extends Component {
                     <img src={logo} />
                 </div>
                 <div>
-                    <img src="/assets/play.png" />
+                    <img src={url.resolve(process.env.PUBLIC_URL, 'assets/play.png')} />
                 </div>
                 <div onClick={() => {
                     this.setState({
