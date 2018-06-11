@@ -25,6 +25,18 @@ props, state, context
 5. 路由 react-router-dom react-dom-config 实现路由功能 react-async-component 实现异步加载
 >
 6. 代理 package.json 中配置proxy
+>
+7. 生命周期
+    constructor  
+    componentWillMount  
+    componentDidMount  
+
+--> receive props  
+componentWillReceiveProps  
+shouldComponentUpdate  
+componentWillUpdate
+componentDidUpdate?
+
 
 ```text
 1. 基础概念
