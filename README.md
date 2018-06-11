@@ -34,7 +34,7 @@ props, state, context
 --> receive props  
 componentWillReceiveProps  
 shouldComponentUpdate  
-componentWillUpdate
+componentWillUpdate?
 componentDidUpdate?
 
 
